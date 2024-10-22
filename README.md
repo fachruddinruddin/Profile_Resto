@@ -1,6 +1,6 @@
 # latihan2_bio
-
-A new Flutter project.
+Muhammad Fachruddin | A11.2022.14476
+A new Flutter project. 
 
 ## Getting Started
 
