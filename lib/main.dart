@@ -9,7 +9,7 @@ class MainApp extends StatelessWidget {
   final biodata = <String, String>{};
 
   MainApp({super.key}) {
-    biodata['name'] = 'Rm. Sedap Rasa';
+    biodata['name'] = 'Palm Beach Resort';
     biodata['email'] = 'poenyoex@gmail.com';
     biodata['phone'] = '+62895360785093';
     biodata['image'] = 'profile.png';
@@ -27,11 +27,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Aplikasi Resto",
+      title: "Profile Resto",
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
-            "Aplikasi Resto",
+            "Profile Resto",
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
