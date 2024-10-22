@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   MainApp({super.key}) {
     biodata['name'] = 'Rm. Sedap Rasa';
     biodata['email'] = 'poenyoex@gmail.com';
-    biodata['phone'] = '+62345678910';
+    biodata['phone'] = '+62895360785093';
     biodata['image'] = 'profile.png';
     biodata['desc'] =
         "Tempat makan yang nyaman dengan berbagai pilihan menu yang sedap dan terjangkau.";
@@ -79,7 +79,6 @@ class MainApp extends StatelessWidget {
               Text(
                 biodata['desc'] ?? '',
                 style: TextStyle(fontSize: 18),
-                textAlign: TextAlign.center,
               ),
               SizedBox(height: 16),
               teksKotak(Colors.black38, 'List Menu'),
